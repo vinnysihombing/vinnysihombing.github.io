@@ -1,11 +1,317 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Vinny's Portofolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">    
-</head>
-<body>
-    <h1>Welcome</h1>
-</body>    
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hariaty</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  </head>
+  <body>
+    <!-- Reference item-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">My Portfolio</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Organizations</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">My work</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <section id="intro" style="background: url(img/home1.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+      <div class="container text-center">
+        <div data-animate="fadeInDown" class="logo"><img src="img/logo-big.png" alt="logo" width="130"></div>
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Welcome to My Portfolio</h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">A final year student, currently pursuing her Bachelor Degree in Informatics Engineering at Del Institute of Technology.</p>
+      </div>
+    </section>
+    <!-- About-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">About me</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <p>I am a highly <strong>motivated</strong> person who has some experiences in developing some <strong>basic</strong> websites applications as a front-end programmer, version management with Git.</p>
+            <p>Currently compiling my applications in order to end my college in 2020. I also am working on my thesis, and will end my college soon on July (as predicted).</p>
+            <p>In 2019, I completed an Internship as a <strong>Software Quality Assurance</strong>. As an SQA, I used Katalon for website testing, and for our Mobile products, I used manual method. But eventhough I tested the Mobile products manually, I still know how to use Appium to test any product which is developed in mobile version.</p>
+            <p>The first time I knew about software testing is when I was a Sophomore. There I learnt about the theory and a little practical thing of software testing. Hence, I started to use <strong>Selenium, Robot Framework,</strong>and <strong>Cucumber</strong>, to test any software according to the needs. And I have been using <strong>PostMan</strong> for API testing.</p>
+            <p>I like to challenge myself by learning new technologies. I have always been interested in SQA field because I have an eagle eye to find bugs of a software. And being an SQA is like playing puzzle for me, frustrating yet challenging. Frustrating because managing bugs and error of a software isn't easy, challenging because every time I find errors & bugs, I have to fix them all and it really <strong>challenges</strong> me!</p>
+            <p>I always keen to learn deep into the fundamentals of the languages, frameworks, and moving forward into web development with latest technologies required to work with it. I feel comfortable working in a team, and also independently.</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <div class="skill-item">
+              <div class="progress-title">PHP</div>
+              
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Javascript</div>
+              
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">HTML coding</div>
+              
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Testing Application</div>
+              
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Python</div>
+              
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/har.png" alt="This is me" class="image rounded-circle img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <!-- organizations-->
+    <section id="services" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">Organizations</h2>
+        </header>
+        <div class="row services text-center">
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><span style='font-size:70px;'>&#9827;</span></div>
+            <h3 class="heading mb-3 text-400">Del English Club</h3>
+            <p class="text-left description">Del English Club (DEC) is an English club at IT Del, focusing in how to speak English fluently. I was on Debate division at my first year here, but then I moved to Scrabble division on my third year. I'm just an ordinary club member, but I had lot of fun here, because playing scrabble with people you don't know is kinda fun too!</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><span style='font-size:70px;'>&#9929;</span></div>
+            <h3 class="heading mb-3 text-400">HIMASTI</h3>
+            <p class="text-left description">At this student association, my role is as the Secretary of HIMASTI (Himpunan Mahasiswa Teknik Informatika). As a Secretary , my duty is to support the Chair in ensuring the smooth functioning of the Management Comittee. I have the responsibility for helping the Chair in maintaining the association to be the best partner of all the Informatics Engineering students.</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><span style='font-size:70px;'>&#10052;</span></i></div>
+            <h3 class="heading mb-3 text-400">PCA Committee</h3>
+            <p class="text-left description">PCA (Program Cinta Almamater) of IT Del is an internal programme where my role was a Supervisor and I had a responsibility to manage the new students of Del, introducing the whole parts of the Institute to them.</p>
+          </div>
+        </div>
+        <hr data-animate="fadeInUp">
+        <div data-animate="fadeInUp" class="text-center">
+          <p class="lead">Would you like to know more or just discuss something?</p>
+          <p><a href="#contact" class="btn btn-outline-light link-scroll">Contact me</a></p>
+        </div>
+      </div>
+    </section>
+    <!--experiences-->
+    <section id="statistics" data-dir="up" style="background: url(&quot;img/parallax.jpg&quot;);" class="statistics-section text-white parallax parallax">
+      <div class="container">
+        <div class="row showcase text-center"> 
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-align-justify"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase">Tic Tac Toe Game<br><br>as the Programmer</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-users"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase">e-Abs Informatics System<br><br>as the Analyst & Front-end Programmer</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-copy"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase">Order & Report Page of diTenun<br><br>as the Analyst</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-pencil"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase">CAKAP.COM<br><br>as an SQA</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dark-mask"></div>
+    </section>
+    <!--My Work-->
+    <section id="references">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="mb-5 text-center">
+            <h2 data-animate="fadeInUp" class="title">My work</h2>
+            <p data-animate="fadeInUp" class="lead">These are my works for these entire 4 years since I was on my first year.</p>
+          </div>
+          <div id="detail">
+            <div class="row">
+              <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                <div class="text-center">
+                  <h1 id="detail-title" class="title"></h1>
+                </div>
+                <div id="detail-content"></div>
+              </div>
+            </div>
+          </div>
+          <!-- detail work-->
+          <div id="references-masonry" data-animate="fadeInUp">
+            <div class="row">
+                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-1.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Tic Tac Toe</h3>
+                            <p>A Basic Tic Tac Toe Game ...</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/c.png,img/tictactoe.png" class="sr-only reference-description">
+                        <p>Proyek ini merupakan proyek yang saya kerjakan bersama dengan tim saya, dikembangkan karena merupakan tugas dari <strong>Pemrograman Berbasis Objek</strong> yang merupakan mata kuliah wajib saya di semester 3.</p>
+                        <p>Lama pengerjaan proyek ini adalah 1 bulan, yaitu dimulai sejak bulan Mei 2018 sampai Juni 2018. Game Tic Tac Toe ini dikembangkan dengan menggunakan IDE Netbeans 8.0 dengan menerapkan FFC/Swing.</p>
+                        <p class="buttons text-center"><a href="https://github.com/hariatylumbantobing/tic-tac-toe-Java" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="seo" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-2.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">e-Abs</h3>
+                            <p>A website application for teachers ...</p>
+                          </div>
+                        </div></a>
+                      <div data-images="" class="sr-only reference-description">
+                        <p>Proyek ini merupakan proyek yang saya kerjakan bersama dengan tim saya, dikembangkan karena melihat adanya permintaan dari salah satu SMA di Laguboti, Toba Samosir yang menginginkan sebuah aplikasi berbasis website yang dapat membantu pekerjaan para guru yaitu mampu merekapitulasi data absensi siswa.</p>
+                        <p>Lama pengerjaan proyek ini adalah 2 bulan, terhitung sejak November 2018 sampai Januari 2019. Proyek ini dikembangkan dengan menggunakan framework Spring. Kami menambahkan <strong>value proposition</strong> dari aplikasi ini yaitu berupa teknologi <em>SMS-Gateway</em> yang mampu memberikan laporan kepada orangtua siswa mengenai rekapitulasi data absensi anak yang bersangkutan setiap bulannya.</p>
+                        <p>Teknologi tersebut memungkinkan adanya biaya SMS yaitu sebesar 200 rupiah/sms. Dengan adanya teknologi ini, dapat menghilangkan miss komunikasi yang mungkin terjadi antara guru dan para orang tua.</p>
+                        <p class="buttons text-center"><a href="https://github.com/hariatylumbantobing/spring-eAbs" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-3.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">diTenun Website</h3>
+                            <p>An e-commerce website which developed using ...</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/b.png,img/di.jpg,img/ditenun.jpg" class="sr-only reference-description">
+                        <p>Di proyek ini, saya bersama tim berfokus dalam mengembangkan sebuah aplikasi berbasis website yang menggunakan <em>Laravel Framework</em>, dan <em>Go Language</em> sebagai bahasa back-end dari aplikasi ini. Saya dan tim hanya berfokus pada halaman order produk, sedangkan halaman lainnya, mulai dari halaman login, purchase, dan sebagainya, dihandle oleh tim lain yang berbeda.</p>
+                        <p>Peran saya dalam pembangunan aplikasi ini adalah sebagai <em>Analyst</em> yang menganalisis jalannya proyek ini dari awal sampai akhir, termasuk <em>testing program</em>, dan pembangunan desain database.</p>
+                        <p>Belum ditentukan kapan batas waktu proyek ini dikembangkan, namun tim saya berkomitmen untuk menyelesaikannya di bulan Mei 2019.</p>
+                        <p>Untuk source code, belum ada. Karena aplikasi masih sedang dalam pengembangan</p>
+                        <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="seo" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-4.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">The Adventure of Andrea</h3>
+                            <p>A game which developed using ...</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/game1.png,img/game2.png,img/game3.png,img/game4.png" class="sr-only reference-description">
+                        <p>Proyek ini merupakan proyek yang saya kerjakan bersama dengan 3 orang lainnya membentuk satu tim, dikembangkan dengan menggunakan bahasa pemrograman C# dengan menggunakan bantuan tool Unity dalam pengembangannya.</p>
+                        <p>Role saya pada proyek ini adalah sebagai <em>game designer</em> yang bertugas dalam mengatur desain keseluruhan game. Saya bersama tim mengerjakan proyek ini selama 2.5 bulan, terhitung sejak Maret 2019 sampai pertengahan Juni 2019. Proyek ini dikembangkan dengan menggunakan framework Spring. Game 2D ini memiliki tema seorang pejuang bernama Andrea untuk dapat selamat dari serangan musuh dengan menghindari perangkap yang dibuat musuh.</p>
+                        <p>Game ini terdiri dari 3 level dimana perbedaan dari masing-masing level terlihat dari kompleksitas stage yang disediakan.</p>
+                        <p class="buttons text-center"><a href="https://github.com/hariatylumbantobing/Game-2D" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="seo" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-5.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Automation Testing</h3>
+                            <p>Testing 10 functions of ...</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/automatepractice1.jpg,img/automatepractice2.jpg" class="sr-only reference-description">
+                        <p>Proyek ini merupakan proyek yang saya kerjakan sendiri, sebagai pemenuhan proyek akhir mata kuliah MPPL.</p>
+                        <p>Lama pengerjaan proyek ini adalah 1 bulan, terhitung sejak Desember 2019 sampai Januari 2020. Proyek ini berfokus pada pengujian halaman website http://automationpractice.com/index.php</p>
+                        <p>Dalam proyek ini saya bertugas sebagai seorang Software Tester yang menguji website tersebut menggunkaan Robot Framework dan Cucumber. Pengujian ini dimulai dari penyusunan Test Frame, kemudian merancang test cases, dan kemudian menguji test cases tersebut dengan Robot Framework dan Cucumber.</p>
+                        <p class="buttons text-center"><a href="https://github.com/hariatylumbantobing/RobotFramework" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download Robot Framework case study</a></p>
+                        <p class="buttons text-center"><a href="https://github.com/hariatylumbantobing/TestingUsingCucumber" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download Cucumber case study</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="seo" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/python2.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Keyword Extraction</h3>
+                            <p>Keyword extraction simulator developed by ...</p>
+                          </div>
+                        </div></a>
+                      <div data-images="" class="sr-only reference-description">
+                        <p>Proyek ini merupakan proyek Tugas Akhir (TA) berupa penelitian terkait peningkatan akurasi untuk ekstraksi kata kunci dari dokumen berbahasa Indonesia.</p>
+                        <p>Lama pengerjaan penelitian ini adalah 9 bulan, terhitung sejak Oktober 2019 sampai Juli 2020. Penelitian ini bertujuan untuk membuat suatu simulator yang dapat melakukan ekstraksi kata kunci secara otomatis.</p>
+                        <p>Simulator dibangun dengan menggunakan bahasa pemrograman Python dengan menggunakan Jupyter Notebook. Adapun metode yang digunakan adalah kombinasi dari metode<em>Feature Selection</em> dan metode <em>Classification</em>. Dari keseluruhan algoritma, dianalisis algoritma terbaik yang akan diimplementasi pada Tugas Akhir ini.</p>
+                        <p class="buttons text-center"><a href="" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact-->
+    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title">Contact me</h2>
+        </header>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-left">
+            <p class="social"><a href="https://www.facebook.com/haryati.sasha.1" class="external facebook wow fadeInUp"><i class="fa fa-facebook"></i></a><a href="https://www.instagram.com/hariatyy_/?hl=id" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="mailto: hariatytobing@gmail.com" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p>
+          </div>
+          <!-- /.6-->
+          <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+            <p>© 2019 Hariaty. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="jquery.cookie/jquery.cookie.js"> </script>
+    <script src="owl.carousel/owl.carousel.min.js"></script>
+    <script src="waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
 </html>
-
