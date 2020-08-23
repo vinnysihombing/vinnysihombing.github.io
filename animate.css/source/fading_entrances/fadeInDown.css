@@ -12,4 +12,5 @@
 
 .fadeInDown {
   animation-name: fadeInDown;
+  text-emphasis-color: #000000;
 }
